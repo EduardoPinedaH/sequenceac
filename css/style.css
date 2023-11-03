@@ -2662,7 +2662,7 @@ a:hover {
         min-width: 300vh;
         position: absolute;
         left: -75%;
-        transform: translateY(-100%);
+        transform: translateY(-10%);
         opacity: 1;
         mix-blend-mode: luminosity;
         top: 20%;
