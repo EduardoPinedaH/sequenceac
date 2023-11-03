@@ -2526,6 +2526,10 @@ a:hover {
 }
 
 /* EXTRA STUFF */
+.work_title {
+    color: #fff !important;
+}
+
 .servicios_info {
     font-family: "articulat-cf", sans-serif;
     font-weight: 600 !important;
