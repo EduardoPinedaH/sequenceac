@@ -2540,9 +2540,9 @@ a:hover {
         -moz-appearance: none;
     }
 
-    .video-bg video {
+    /* .video-bg video {
         top: 40%;
-    }
+    } */
 
     .header .gallery-thumbs {
         height: 60%;
