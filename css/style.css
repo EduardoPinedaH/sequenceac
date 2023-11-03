@@ -2540,6 +2540,10 @@ a:hover {
         -moz-appearance: none;
     }
 
+    .video-bg video {
+        top: 40%;
+    }
+
     .header .gallery-thumbs {
         height: 60%;
         top: 20%;
@@ -2651,6 +2655,10 @@ a:hover {
 
     .video-hero .inner h1 {
         font-size: 15vw;
+    }
+
+    .video-bg video {
+        top: 10%;
     }
 
     .motion-blur .inner h1 {
