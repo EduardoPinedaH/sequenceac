@@ -2725,6 +2725,15 @@ a:hover {
         margin-left: 40vw;
     }
 
+    .trabajo,
+    .historias {
+        font-size: 3rem;
+    }
+
+    .somos {
+        font-size: 2rem;
+    }
+
     .hide-mobile {
         display: none;
     }
@@ -2974,6 +2983,12 @@ a:hover {
 
     .footer {
         padding-top: 80px;
+        transform: scale(50%);
+        background: url(../images/Footer_mobile.gif) center no-repeat #fff;
+    }
+
+    .footer ul {
+        visibility: hidden;
     }
 
     .footer h2 {
