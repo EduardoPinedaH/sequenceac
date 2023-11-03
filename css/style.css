@@ -1563,7 +1563,7 @@ a:hover {
     margin-bottom: 20px;
 }
 .works ul {
-    width: 100%;
+    width: 120%;
     float: left;
     margin: 0;
     padding: 0;
@@ -2526,6 +2526,22 @@ a:hover {
 }
 
 /* EXTRA STUFF */
+.servicios_info {
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+}
+
+.servicios {
+    font-family: "articulat-cf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem !important;
+    animation: colorChangeText linear;
+    animation-timeline: view();
+    animation-range: entry 50% cover 100%;
+}
+
 .square1 {
     height: 125px;
     width: 125px;
@@ -2615,6 +2631,20 @@ a:hover {
     50% {
         opacity: 1;
         transform: translateY(0%);
+    }
+}
+
+.collage {
+    animation: fadeCollage linear;
+    animation-timeline: view();
+}
+
+@keyframes fadeCollage {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
     }
 }
 
