@@ -2608,9 +2608,9 @@ a:hover {
 
 .historias {
     font-family: "articulat-cf", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
-    font-size: 4rem;
+    font-size: 5rem;
     color: #7e9178;
     width: 50%;
     margin-bottom: 5rem;
@@ -2629,7 +2629,7 @@ a:hover {
         transform: translateY(-50%);
     }
     50% {
-        opacity: 0.7;
+        opacity: 0.5;
         transform: translateY(0%);
     }
 }
