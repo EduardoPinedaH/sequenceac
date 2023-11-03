@@ -2658,6 +2658,13 @@ a:hover {
     }
 
     .video-bg video {
+        min-height: 100%;
+        min-width: 150vh;
+        position: absolute;
+        left: -75%;
+        transform: translateY(-50%);
+        opacity: 1;
+        mix-blend-mode: luminosity;
         top: 20%;
     }
 
