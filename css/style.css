@@ -2743,6 +2743,10 @@ a:hover {
 /* RESPONSIVE MOBILE FIXES */
 @media only screen and (max-width: 767px),
     only screen and (max-device-width: 767px) {
+    .servicios {
+        font-size: 3rem !important;
+    }
+
     .square1 {
         height: 100px;
         width: 100px;
@@ -2757,11 +2761,11 @@ a:hover {
 
     .trabajo,
     .historias {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .somos {
-        font-size: 1rem;
+        font-size: 2.5rem !important;
     }
 
     .hide-mobile {
