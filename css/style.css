@@ -2540,9 +2540,9 @@ a:hover {
         -moz-appearance: none;
     }
 
-    /* .video-bg video {
+    .video-bg video {
         top: 40%;
-    } */
+    }
 
     .header .gallery-thumbs {
         height: 60%;
@@ -2657,7 +2657,7 @@ a:hover {
         font-size: 15vw;
     }
 
-    /* .video-bg video {
+    .video-bg video {
         min-height: 100%;
         min-width: 200vh;
         position: absolute;
@@ -2666,7 +2666,7 @@ a:hover {
         opacity: 1;
         mix-blend-mode: luminosity;
         top: 20%;
-    } */
+    }
 
     .motion-blur .inner h1 {
         font-size: 14vw;
